@@ -1,0 +1,50 @@
+.navbar-dark .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.fa-li {
+  position: relative;
+  left: 0;
+}
+.back{
+  background-color: #9c8550;
+}
+.hero{
+  background-color: #9c8550;
+  margin: 0;
+}
+.btn2{
+  width: 25%;
+}
+.buddha{
+  width: 40%;
+  height: 100%;
+}
+@media(max-width: 998px) {
+  .hero{
+    font-size: 55%;
+  }
+  
+}
+@media(max-width: 768px) {
+  .hero{
+    font-size: 45%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+.sliderimg{
+  margin-top: 50px;
+  width: 60%;
+  height: 550px;
+  object-fit: cover
+}
